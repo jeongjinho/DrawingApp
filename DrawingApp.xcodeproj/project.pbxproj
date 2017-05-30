@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6FD8C00DA4CE36A0380A791E /* libPods-DrawingApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D82718C5851CD5185FCA516 /* libPods-DrawingApp.a */; };
+		7B5027671E489C82003A70A2 /* LayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5027661E489C82003A70A2 /* LayerViewController.m */; };
+		7B50276B1E49B694003A70A2 /* EditViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B50276A1E49B694003A70A2 /* EditViewModel.m */; };
+		7B82167E1E4B0583001CD89C /* LayerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B82167D1E4B0583001CD89C /* LayerCollectionViewCell.m */; };
+		7B9C20DF1E5AEB1A00013E2C /* PecilSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C20DE1E5AEB1A00013E2C /* PecilSelectViewController.m */; };
+		7B9C26471E487FC5008C27E1 /* LayoutOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B9C26461E487FC5008C27E1 /* LayoutOption.m */; };
+		7BC7EB5B1E3751B600B336FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC7EB5A1E3751B600B336FF /* main.m */; };
+		7BC7EB5E1E3751B600B336FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC7EB5D1E3751B600B336FF /* AppDelegate.m */; };
+		7BC7EB611E3751B600B336FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC7EB601E3751B600B336FF /* ViewController.m */; };
+		7BC7EB641E3751B700B336FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC7EB621E3751B600B336FF /* Main.storyboard */; };
+		7BC7EB671E3751B700B336FF /* DrawingApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7BC7EB651E3751B700B336FF /* DrawingApp.xcdatamodeld */; };
+		7BC7EB691E3751B700B336FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BC7EB681E3751B700B336FF /* Assets.xcassets */; };
+		7BC7EB6C1E3751B700B336FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BC7EB6A1E3751B700B336FF /* LaunchScreen.storyboard */; };
+		7BC7EB751E38DDF200B336FF /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC7EB741E38DDF200B336FF /* DataModel.m */; };
+		7BC7EB791E38DEAA00B336FF /* SubjectCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC7EB781E38DEAA00B336FF /* SubjectCollectionViewCell.m */; };
+		7BE8FE6A1ECEF290002BEEA0 /* NSObject+UImage_drawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE8FE691ECEF290002BEEA0 /* NSObject+UImage_drawing.m */; };
+		7BEB6A5E1E446F86002F55C0 /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BEB6A5D1E446F86002F55C0 /* UIView+Animation.m */; };
+		7BF73E331E4315E700643D79 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF73E321E4315E700643D79 /* DrawViewController.m */; };
+		7BF73E371E43195100643D79 /* ThickSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF73E361E43195100643D79 /* ThickSlider.m */; };
+		7BF73E3A1E43310D00643D79 /* DrawNavigationBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF73E391E43310D00643D79 /* DrawNavigationBarButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C962A03780D5F2237ABBDCF /* Pods-DrawingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DrawingApp/Pods-DrawingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		3D82718C5851CD5185FCA516 /* libPods-DrawingApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DrawingApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B5027651E489C82003A70A2 /* LayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerViewController.h; sourceTree = "<group>"; };
+		7B5027661E489C82003A70A2 /* LayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerViewController.m; sourceTree = "<group>"; };
+		7B5027691E49B694003A70A2 /* EditViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewModel.h; sourceTree = "<group>"; };
+		7B50276A1E49B694003A70A2 /* EditViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewModel.m; sourceTree = "<group>"; };
+		7B82167C1E4B0583001CD89C /* LayerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerCollectionViewCell.h; sourceTree = "<group>"; };
+		7B82167D1E4B0583001CD89C /* LayerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerCollectionViewCell.m; sourceTree = "<group>"; };
+		7B9C20DD1E5AEB1A00013E2C /* PecilSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PecilSelectViewController.h; sourceTree = "<group>"; };
+		7B9C20DE1E5AEB1A00013E2C /* PecilSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PecilSelectViewController.m; sourceTree = "<group>"; };
+		7B9C26451E487FC5008C27E1 /* LayoutOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutOption.h; sourceTree = "<group>"; };
+		7B9C26461E487FC5008C27E1 /* LayoutOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutOption.m; sourceTree = "<group>"; };
+		7BC7EB561E3751B600B336FF /* DrawingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC7EB5A1E3751B600B336FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BC7EB5C1E3751B600B336FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7BC7EB5D1E3751B600B336FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7BC7EB5F1E3751B600B336FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7BC7EB601E3751B600B336FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7BC7EB631E3751B700B336FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BC7EB661E3751B700B336FF /* DrawingApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DrawingApp.xcdatamodel; sourceTree = "<group>"; };
+		7BC7EB681E3751B700B336FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7BC7EB6B1E3751B700B336FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7BC7EB6D1E3751B700B336FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BC7EB731E38DDF200B336FF /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
+		7BC7EB741E38DDF200B336FF /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
+		7BC7EB761E38DE2800B336FF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7BC7EB771E38DEAA00B336FF /* SubjectCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubjectCollectionViewCell.h; sourceTree = "<group>"; };
+		7BC7EB781E38DEAA00B336FF /* SubjectCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubjectCollectionViewCell.m; sourceTree = "<group>"; };
+		7BE8FE681ECEF290002BEEA0 /* NSObject+UImage_drawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+UImage_drawing.h"; sourceTree = "<group>"; };
+		7BE8FE691ECEF290002BEEA0 /* NSObject+UImage_drawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+UImage_drawing.m"; sourceTree = "<group>"; };
+		7BEB6A5C1E446F86002F55C0 /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		7BEB6A5D1E446F86002F55C0 /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		7BF73E311E4315E700643D79 /* DrawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
+		7BF73E321E4315E700643D79 /* DrawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
+		7BF73E351E43195100643D79 /* ThickSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThickSlider.h; sourceTree = "<group>"; };
+		7BF73E361E43195100643D79 /* ThickSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThickSlider.m; sourceTree = "<group>"; };
+		7BF73E381E43310D00643D79 /* DrawNavigationBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawNavigationBarButton.h; sourceTree = "<group>"; };
+		7BF73E391E43310D00643D79 /* DrawNavigationBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawNavigationBarButton.m; sourceTree = "<group>"; };
+		A119DCE388EDD40BDF09DD11 /* Pods-DrawingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DrawingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DrawingApp/Pods-DrawingApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BC7EB531E3751B600B336FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FD8C00DA4CE36A0380A791E /* libPods-DrawingApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		145EAA2968DB5F4792C46DBA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C962A03780D5F2237ABBDCF /* Pods-DrawingApp.debug.xcconfig */,
+				A119DCE388EDD40BDF09DD11 /* Pods-DrawingApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		36770EB8D16F68452A6C7348 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D82718C5851CD5185FCA516 /* libPods-DrawingApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B5027641E489C51003A70A2 /* DrawingPage */ = {
+			isa = PBXGroup;
+			children = (
+				7BF73E311E4315E700643D79 /* DrawViewController.h */,
+				7BF73E321E4315E700643D79 /* DrawViewController.m */,
+				7BEB6A5C1E446F86002F55C0 /* UIView+Animation.h */,
+				7BEB6A5D1E446F86002F55C0 /* UIView+Animation.m */,
+				7B9C26451E487FC5008C27E1 /* LayoutOption.h */,
+				7B9C26461E487FC5008C27E1 /* LayoutOption.m */,
+				7BF73E351E43195100643D79 /* ThickSlider.h */,
+				7BF73E361E43195100643D79 /* ThickSlider.m */,
+				7BF73E381E43310D00643D79 /* DrawNavigationBarButton.h */,
+				7BF73E391E43310D00643D79 /* DrawNavigationBarButton.m */,
+				7BE8FE681ECEF290002BEEA0 /* NSObject+UImage_drawing.h */,
+				7BE8FE691ECEF290002BEEA0 /* NSObject+UImage_drawing.m */,
+			);
+			name = DrawingPage;
+			sourceTree = "<group>";
+		};
+		7B5027681E489CA0003A70A2 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				7BC7EB5C1E3751B600B336FF /* AppDelegate.h */,
+				7BC7EB5D1E3751B600B336FF /* AppDelegate.m */,
+				7BC7EB761E38DE2800B336FF /* PrefixHeader.pch */,
+				7BC7EB621E3751B600B336FF /* Main.storyboard */,
+				7BC7EB6A1E3751B700B336FF /* LaunchScreen.storyboard */,
+				7BC7EB6D1E3751B700B336FF /* Info.plist */,
+				7BC7EB651E3751B700B336FF /* DrawingApp.xcdatamodeld */,
+				7BC7EB681E3751B700B336FF /* Assets.xcassets */,
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		7B9C20DC1E5AEAB000013E2C /* layerView */ = {
+			isa = PBXGroup;
+			children = (
+				7B5027651E489C82003A70A2 /* LayerViewController.h */,
+				7B5027661E489C82003A70A2 /* LayerViewController.m */,
+				7B82167C1E4B0583001CD89C /* LayerCollectionViewCell.h */,
+				7B82167D1E4B0583001CD89C /* LayerCollectionViewCell.m */,
+				7B5027691E49B694003A70A2 /* EditViewModel.h */,
+				7B50276A1E49B694003A70A2 /* EditViewModel.m */,
+			);
+			name = layerView;
+			sourceTree = "<group>";
+		};
+		7BC7EB4D1E3751B600B336FF = {
+			isa = PBXGroup;
+			children = (
+				7BC7EB581E3751B600B336FF /* DrawingApp */,
+				7BC7EB571E3751B600B336FF /* Products */,
+				145EAA2968DB5F4792C46DBA /* Pods */,
+				36770EB8D16F68452A6C7348 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7BC7EB571E3751B600B336FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BC7EB561E3751B600B336FF /* DrawingApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BC7EB581E3751B600B336FF /* DrawingApp */ = {
+			isa = PBXGroup;
+			children = (
+				7B5027681E489CA0003A70A2 /* Setting */,
+				7BF73E341E4315F400643D79 /* SubjectPage */,
+				7B5027641E489C51003A70A2 /* DrawingPage */,
+				7B9C20DC1E5AEAB000013E2C /* layerView */,
+				7B9C20DD1E5AEB1A00013E2C /* PecilSelectViewController.h */,
+				7B9C20DE1E5AEB1A00013E2C /* PecilSelectViewController.m */,
+				7BC7EB591E3751B600B336FF /* Supporting Files */,
+			);
+			path = DrawingApp;
+			sourceTree = "<group>";
+		};
+		7BC7EB591E3751B600B336FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BC7EB5A1E3751B600B336FF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BF73E341E4315F400643D79 /* SubjectPage */ = {
+			isa = PBXGroup;
+			children = (
+				7BC7EB5F1E3751B600B336FF /* ViewController.h */,
+				7BC7EB601E3751B600B336FF /* ViewController.m */,
+				7BC7EB771E38DEAA00B336FF /* SubjectCollectionViewCell.h */,
+				7BC7EB781E38DEAA00B336FF /* SubjectCollectionViewCell.m */,
+				7BC7EB731E38DDF200B336FF /* DataModel.h */,
+				7BC7EB741E38DDF200B336FF /* DataModel.m */,
+			);
+			name = SubjectPage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BC7EB551E3751B600B336FF /* DrawingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BC7EB701E3751B700B336FF /* Build configuration list for PBXNativeTarget "DrawingApp" */;
+			buildPhases = (
+				A72FBE25E305F814C5388D70 /* [CP] Check Pods Manifest.lock */,
+				7BC7EB521E3751B600B336FF /* Sources */,
+				7BC7EB531E3751B600B336FF /* Frameworks */,
+				7BC7EB541E3751B600B336FF /* Resources */,
+				E670F818428D4B5BAC966317 /* [CP] Embed Pods Frameworks */,
+				40D47202A8361F0923A8516D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawingApp;
+			productName = DrawingApp;
+			productReference = 7BC7EB561E3751B600B336FF /* DrawingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BC7EB4E1E3751B600B336FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "진호놀이터";
+				TargetAttributes = {
+					7BC7EB551E3751B600B336FF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E2TU3E27XP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7BC7EB511E3751B600B336FF /* Build configuration list for PBXProject "DrawingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BC7EB4D1E3751B600B336FF;
+			productRefGroup = 7BC7EB571E3751B600B336FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BC7EB551E3751B600B336FF /* DrawingApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BC7EB541E3751B600B336FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC7EB6C1E3751B700B336FF /* LaunchScreen.storyboard in Resources */,
+				7BC7EB691E3751B700B336FF /* Assets.xcassets in Resources */,
+				7BC7EB641E3751B700B336FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40D47202A8361F0923A8516D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawingApp/Pods-DrawingApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A72FBE25E305F814C5388D70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E670F818428D4B5BAC966317 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DrawingApp/Pods-DrawingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BC7EB521E3751B600B336FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B50276B1E49B694003A70A2 /* EditViewModel.m in Sources */,
+				7B5027671E489C82003A70A2 /* LayerViewController.m in Sources */,
+				7BC7EB671E3751B700B336FF /* DrawingApp.xcdatamodeld in Sources */,
+				7BC7EB751E38DDF200B336FF /* DataModel.m in Sources */,
+				7B82167E1E4B0583001CD89C /* LayerCollectionViewCell.m in Sources */,
+				7BF73E331E4315E700643D79 /* DrawViewController.m in Sources */,
+				7BC7EB611E3751B600B336FF /* ViewController.m in Sources */,
+				7BC7EB5E1E3751B600B336FF /* AppDelegate.m in Sources */,
+				7B9C26471E487FC5008C27E1 /* LayoutOption.m in Sources */,
+				7BEB6A5E1E446F86002F55C0 /* UIView+Animation.m in Sources */,
+				7BE8FE6A1ECEF290002BEEA0 /* NSObject+UImage_drawing.m in Sources */,
+				7BF73E3A1E43310D00643D79 /* DrawNavigationBarButton.m in Sources */,
+				7B9C20DF1E5AEB1A00013E2C /* PecilSelectViewController.m in Sources */,
+				7BC7EB5B1E3751B600B336FF /* main.m in Sources */,
+				7BF73E371E43195100643D79 /* ThickSlider.m in Sources */,
+				7BC7EB791E38DEAA00B336FF /* SubjectCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7BC7EB621E3751B600B336FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BC7EB631E3751B700B336FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BC7EB6A1E3751B700B336FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BC7EB6B1E3751B700B336FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BC7EB6E1E3751B700B336FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BC7EB6F1E3751B700B336FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BC7EB711E3751B700B336FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C962A03780D5F2237ABBDCF /* Pods-DrawingApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E2TU3E27XP;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = DrawingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mynear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BC7EB721E3751B700B336FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A119DCE388EDD40BDF09DD11 /* Pods-DrawingApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E2TU3E27XP;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = DrawingApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mynear;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BC7EB511E3751B600B336FF /* Build configuration list for PBXProject "DrawingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC7EB6E1E3751B700B336FF /* Debug */,
+				7BC7EB6F1E3751B700B336FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BC7EB701E3751B700B336FF /* Build configuration list for PBXNativeTarget "DrawingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BC7EB711E3751B700B336FF /* Debug */,
+				7BC7EB721E3751B700B336FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7BC7EB651E3751B700B336FF /* DrawingApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7BC7EB661E3751B700B336FF /* DrawingApp.xcdatamodel */,
+			);
+			currentVersion = 7BC7EB661E3751B700B336FF /* DrawingApp.xcdatamodel */;
+			path = DrawingApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7BC7EB4E1E3751B600B336FF /* Project object */;
+}
